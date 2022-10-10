@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    
+    lista = range(1, n + 1) # definindo o range que vai de 1 a n
+    
+    for i in lista:
+        print(i, end="") #o que é esse fim ""?
