@@ -1,6 +1,6 @@
 def is_leap(year):  #função se cria com def
     leap = False
-    leap = (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0) #regra que o exerxício passou. Se alguma dessas divisões o resto fosse igual a zero seria um ano bissexto. 
+    leap = (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0) #regra que o exercício passou. Se alguma dessas divisões o resto fosse igual a zero seria um ano bissexto. 
     return leap
 
 
