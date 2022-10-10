@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    
+    for i in range(n):
+        print(i * i)
+        
+        # esse não entendi ainda, mas os resultados para o input 5 foram 0,1,4,9,16
