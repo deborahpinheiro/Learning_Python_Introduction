@@ -1,0 +1,13 @@
+if __name__ == '__main__':
+        students = []
+        scores = []
+        for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        student = [name, score] #criando lista com nome e nota
+        students.append(student) #apenda estudante em students 
+        scores.append(score) #apenda score em scores
+    second_min_score = sorted(set(scores))[1] #ordena os scores e pega o indice 1 que eh o segundo
+    student_names = sorted(
+        [student[0] for student in students if student[1] == second_min_score]) #ordena pegando o nome do estudante que o score for o segundo
+    print("\n".join(student_names)) #traz o resultado
